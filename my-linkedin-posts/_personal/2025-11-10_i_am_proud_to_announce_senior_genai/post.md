@@ -1,0 +1,2 @@
+I am proud to announce that I have progressed to the job title “Senior Generative AI Engineer.” This title means a lot to me, because I have worked hard to get it in such a short time.
+However, in my years working in the industry, I have learned not to put much weight on titles, as they often are not a good indicator of a person's skills and maturity. My title changed, but I am still the same person. Don't give too much on titles. They do not mean much😉.
