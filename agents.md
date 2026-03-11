@@ -28,4 +28,5 @@ Connect with me if you want grounded, experience-based perspectives on Generativ
 
 In `/my-linkedin-posts` sind meine vergangenen LinkedIn-Posts (einige auch auf Englisch).  
 In `/neuer-post` arbeiten wir gemeinsam an einem neuen Post.  
-In `/` habe ich für dich ein Python-Projekt mit astral uv eingerichtet – falls du für bestimmte Aufgaben scripten willst.
+In `/` habe ich für dich ein Python-Projekt mit astral uv eingerichtet – falls du für bestimmte Aufgaben scripten willst. Benutze 'uv add' um dependencies hinzuzufügen und 'uv run python' um python scripte auszuführen
+in `linkedin-carousel-generator` ist ein typescript remotion project.
