@@ -1,0 +1,25 @@
+{
+  "name": "linkedin-carousel-generator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "render": "tsx scripts/render-pdf.ts",
+    "studio": "npx remotion studio src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.434",
+    "@remotion/cli": "^4.0.434",
+    "@remotion/google-fonts": "^4.0.434",
+    "@remotion/renderer": "^4.0.434",
+    "pdf-lib": "^1.17.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.434"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
