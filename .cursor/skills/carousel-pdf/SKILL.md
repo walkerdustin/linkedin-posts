@@ -103,7 +103,7 @@ This is the critical loop. Do not skip it.
 
 ```
 - [ ] Render:  npm run render -- <name>
-- [ ] Open out/<name>.pdf and review EVERY slide
+- [ ] Review EVERY slide by reading the PNGs in linkedin-carousel-generator/review/ (slide-1.png, slide-2.png, ...)
 - [ ] Identify issues (spacing, hierarchy, readability, balance)
 - [ ] Fix in code
 - [ ] Re-render and review again
@@ -116,6 +116,7 @@ npm run render -- <name>
 ```
 
 Output lands in `linkedin-carousel-generator/out/<name>.pdf` (rendered at 3x resolution).
+Review PNGs land in `linkedin-carousel-generator/review/slide-{n}.png` — use these to visually inspect each slide.
 
 For live preview during development: `npm run studio`
 

@@ -77,6 +77,18 @@ async function main() {
   fs.writeFileSync(pdfPath, pdfBytes);
   console.log(`\nPDF saved to ${pdfPath}`);
 
+  const reviewDir = path.resolve("./review");
+  if (fs.existsSync(reviewDir)) {
+    fs.rmSync(reviewDir, { recursive: true });
+  }
+  fs.mkdirSync(reviewDir, { recursive: true });
+
+  for (let i = 0; i < imagePaths.length; i++) {
+    const dest = path.join(reviewDir, `slide-${i + 1}.png`);
+    fs.copyFileSync(imagePaths[i], dest);
+  }
+  console.log(`Review PNGs saved to ${reviewDir}`);
+
   for (const imgPath of imagePaths) {
     fs.unlinkSync(imgPath);
   }
