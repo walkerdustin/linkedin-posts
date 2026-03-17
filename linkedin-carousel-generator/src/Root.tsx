@@ -3,6 +3,7 @@ import { Composition } from "remotion";
 import { SLIDE_WIDTH, SLIDE_HEIGHT } from "./shared/theme";
 import { ExampleCarousel, EXAMPLE_SLIDE_COUNT } from "./carousels/example/Carousel";
 import { LlmGrundlagenCarousel, LLM_GRUNDLAGEN_SLIDE_COUNT } from "./carousels/llm-grundlagen/Carousel";
+import { HowLlmsWorkCarousel, HOW_LLMS_WORK_SLIDE_COUNT } from "./carousels/how-llms-work/Carousel";
 
 export const Root: React.FC = () => {
   return (
@@ -19,6 +20,14 @@ export const Root: React.FC = () => {
         id="llm-grundlagen"
         component={LlmGrundlagenCarousel}
         durationInFrames={LLM_GRUNDLAGEN_SLIDE_COUNT}
+        fps={1}
+        width={SLIDE_WIDTH}
+        height={SLIDE_HEIGHT}
+      />
+      <Composition
+        id="how-llms-work"
+        component={HowLlmsWorkCarousel}
+        durationInFrames={HOW_LLMS_WORK_SLIDE_COUNT}
         fps={1}
         width={SLIDE_WIDTH}
         height={SLIDE_HEIGHT}
