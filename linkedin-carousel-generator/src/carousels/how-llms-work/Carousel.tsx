@@ -35,16 +35,20 @@ const CoverSlide: React.FC = () => (
       <AccentLine direction="center" />
     </div>
 
-    <Label style={{ marginTop: 16, marginBottom: 12 }}>
+    <Label style={{ marginTop: 16, marginBottom: 8 }}>
       LLM GRUNDLAGEN &nbsp;|&nbsp; TEIL 2
     </Label>
+
+    <Headline size="xl" style={{ fontSize: 72, textAlign: "center", marginBottom: 24, letterSpacing: 1 }}>
+      WIE FUNKTIONIEREN LLMs?
+    </Headline>
 
     {/* Image + speech bubble side by side */}
     <div
       style={{
         position: "relative",
         width: 952,
-        height: 640,
+        height: 600,
         flexShrink: 0,
       }}
     >
@@ -52,13 +56,13 @@ const CoverSlide: React.FC = () => (
       <div
         style={{
           position: "absolute",
-          left: 0,
-          top: 120,
+          left: 40,
+          top: 100,
           background: colors.text,
           borderRadius: 18,
           border: `2.5px solid ${colors.accent}`,
           padding: "22px 28px",
-          width: 260,
+          width: 280,
           boxShadow: `0 8px 32px rgba(0,0,0,0.4)`,
           zIndex: 2,
         }}
@@ -94,25 +98,25 @@ const CoverSlide: React.FC = () => (
         <div
           style={{
             position: "absolute",
-            top: 40,
-            right: -18,
+            top: 60,
+            right: -24,
             width: 0,
             height: 0,
-            borderTop: "14px solid transparent",
-            borderBottom: "14px solid transparent",
-            borderLeft: `18px solid ${colors.accent}`,
+            borderTop: "16px solid transparent",
+            borderBottom: "16px solid transparent",
+            borderLeft: `24px solid ${colors.accent}`,
           }}
         />
         <div
           style={{
             position: "absolute",
-            top: 42,
-            right: -14,
+            top: 63,
+            right: -20,
             width: 0,
             height: 0,
-            borderTop: "12px solid transparent",
-            borderBottom: "12px solid transparent",
-            borderLeft: `16px solid ${colors.text}`,
+            borderTop: "13px solid transparent",
+            borderBottom: "13px solid transparent",
+            borderLeft: `21px solid ${colors.text}`,
           }}
         />
       </div>
@@ -123,8 +127,8 @@ const CoverSlide: React.FC = () => (
           position: "absolute",
           right: 0,
           top: 0,
-          width: 640,
-          height: 640,
+          width: 600,
+          height: 600,
           borderRadius: 24,
           overflow: "hidden",
           boxShadow: shadows.raisedStrong,
@@ -143,11 +147,11 @@ const CoverSlide: React.FC = () => (
     </div>
 
     {/* Headline below image */}
-    <div style={{ textAlign: "center", marginTop: 28 }}>
-      <Headline size="lg" style={{ fontSize: 52 }}>
+    <div style={{ textAlign: "center", marginTop: 24 }}>
+      <Headline size="lg" style={{ fontSize: 44 }}>
         WAS W&Uuml;RDEST DU HIER
       </Headline>
-      <Headline size="lg" style={{ fontSize: 52 }}>
+      <Headline size="lg" style={{ fontSize: 44 }}>
         ALS N&Auml;CHSTES{" "}
         <span style={{ color: colors.accent }}>VORHERSAGEN</span>?
       </Headline>
@@ -156,12 +160,12 @@ const CoverSlide: React.FC = () => (
     <ContentBox
       variant="inset"
       style={{
-        padding: "12px 32px",
+        padding: "10px 28px",
         borderRadius: 40,
         marginTop: 16,
       }}
     >
-      <Label style={{ fontSize: 17, opacity: 0.6, letterSpacing: 1.5 }}>
+      <Label style={{ fontSize: 16, opacity: 0.6, letterSpacing: 1.5 }}>
         &Uuml;BER 200 PERSONEN &nbsp;&bull;&nbsp; CA. 20 SCHULUNGEN
       </Label>
     </ContentBox>
@@ -514,18 +518,18 @@ const VocabularySlide: React.FC = () => {
             <div
               style={{
                 width: "100%",
-                height: 8,
-                borderRadius: 4,
+                height: 12,
+                borderRadius: 6,
                 background: "rgba(0,0,0,0.3)",
                 overflow: "hidden",
-                marginBottom: 8,
+                marginBottom: 10,
               }}
             >
               <div
                 style={{
                   width: item.prob > 0 ? Math.max(item.prob * maxBarWidth / maxBarWidth * 100, 1) + "%" : "0%",
                   height: "100%",
-                  borderRadius: 4,
+                  borderRadius: 6,
                   background: item.highlight
                     ? `linear-gradient(90deg, ${colors.accent}, #d4684f)`
                     : `linear-gradient(90deg, rgba(240,247,248,0.3), rgba(240,247,248,0.15))`,
