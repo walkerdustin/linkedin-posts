@@ -187,13 +187,13 @@ const TokensRevealSlide: React.FC = () => {
       watermark="02"
       style={{ display: "block" }}
     >
-      <Headline size="md" style={{ marginBottom: 12 }}>
+      <Headline size="md" style={{ marginBottom: 16 }}>
         LLMs KENNEN
         <br />
         KEINE W&Ouml;RTER
       </Headline>
 
-      <Subhead style={{ fontSize: 26, opacity: 0.65, marginBottom: 36 }}>
+      <Subhead style={{ fontSize: 28, opacity: 0.65, marginBottom: 40 }}>
         Was ein LLM sieht, ist eine Liste von Zahlen.
         <br />
         Jede Zahl steht f&uuml;r ein <Highlight>Token</Highlight>.
@@ -203,26 +203,26 @@ const TokensRevealSlide: React.FC = () => {
       <ContentBox
         variant="inset"
         style={{
-          padding: "16px 28px",
-          marginBottom: 12,
+          padding: "20px 28px",
+          marginBottom: 16,
           display: "flex",
           alignItems: "center",
           gap: 12,
         }}
       >
-        <Label style={{ fontSize: 14, opacity: 0.5, flexShrink: 0 }}>
+        <Label style={{ fontSize: 16, opacity: 0.5, flexShrink: 0 }}>
           TEXT
         </Label>
-        <Body size="md" style={{ fontSize: 26 }}>
+        <Body size="md" style={{ fontSize: 28 }}>
           HalliHallo, ich bin Dustin
         </Body>
       </ContentBox>
 
       {/* Arrow */}
-      <div style={{ textAlign: "center", margin: "8px 0" }}>
+      <div style={{ textAlign: "center", margin: "10px 0" }}>
         <span
           style={{
-            fontSize: 32,
+            fontSize: 36,
             color: colors.accent,
             fontWeight: 700,
           }}
@@ -235,15 +235,15 @@ const TokensRevealSlide: React.FC = () => {
       <ContentBox
         variant="raisedStrong"
         style={{
-          padding: "28px 24px",
-          marginBottom: 24,
+          padding: "32px 28px",
+          marginBottom: 28,
         }}
       >
         <Label
           style={{
-            fontSize: 14,
+            fontSize: 16,
             opacity: 0.5,
-            marginBottom: 16,
+            marginBottom: 20,
           }}
         >
           TOKENIZER
@@ -252,7 +252,7 @@ const TokensRevealSlide: React.FC = () => {
           style={{
             display: "flex",
             flexWrap: "wrap",
-            gap: 10,
+            gap: 12,
             alignItems: "flex-end",
           }}
         >
@@ -274,12 +274,12 @@ const TokensRevealSlide: React.FC = () => {
         accentBorder="left"
         style={{
           backgroundColor: "transparent",
-          padding: "8px 0 8px 28px",
+          padding: "12px 0 12px 28px",
           borderRadius: 0,
-          marginBottom: 24,
+          marginBottom: 28,
         }}
       >
-        <Body size="md" style={{ lineHeight: 1.6, fontSize: 26 }}>
+        <Body size="md" style={{ lineHeight: 1.6, fontSize: 28 }}>
           &ldquo;Dustin&rdquo; = ein einzelner Token:{" "}
           <Highlight>161250</Highlight>
           <br />
@@ -290,11 +290,11 @@ const TokensRevealSlide: React.FC = () => {
       <ContentBox
         variant="inset"
         style={{
-          padding: "24px 32px",
+          padding: "32px 36px",
           textAlign: "center",
         }}
       >
-        <Body size="md" style={{ fontWeight: 500, lineHeight: 1.5, fontSize: 24 }}>
+        <Body size="md" style={{ fontWeight: 500, lineHeight: 1.5, fontSize: 28 }}>
           Keine Buchstaben. Keine W&ouml;rter.
           <br />
           Nur <Highlight>Nummern</Highlight>.
@@ -434,9 +434,9 @@ const WhyTokensSlide: React.FC = () => {
 
 const LanguageCostSlide: React.FC = () => {
   const languages = [
-    { name: "ENGLISH", tokens: 105, chars: 468, pct: "", highlight: false },
-    { name: "NORWEGIAN", tokens: 157, chars: 465, pct: "+50%", highlight: false },
-    { name: "ARABIC", tokens: 286, chars: 402, pct: "+172%", highlight: true },
+    { name: "ENGLISCH", tokens: 105, chars: 468, pct: "", highlight: false },
+    { name: "NORWEGISCH", tokens: 157, chars: 465, pct: "+50%", highlight: false },
+    { name: "ARABISCH", tokens: 286, chars: 402, pct: "+172%", highlight: true },
   ];
 
   const maxTokens = 286;
