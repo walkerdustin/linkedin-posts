@@ -39,41 +39,28 @@ const CoverSlide: React.FC = () => (
       LLM GRUNDLAGEN &nbsp;|&nbsp; TEIL 2
     </Label>
 
-    {/* Image with speech bubble overlay */}
+    {/* Image + speech bubble side by side */}
     <div
       style={{
         position: "relative",
-        width: 920,
-        height: 600,
-        borderRadius: 24,
-        overflow: "hidden",
-        boxShadow: shadows.raisedStrong,
-        border: `1px solid rgba(240,247,248,0.08)`,
+        width: 952,
+        height: 640,
         flexShrink: 0,
       }}
     >
-      <Img
-        src={staticFile("bild_paar_am_essenstisch.png")}
-        style={{
-          width: "100%",
-          height: "100%",
-          objectFit: "cover",
-          objectPosition: "center center",
-        }}
-      />
-
-      {/* Speech bubble - pointing at her mouth */}
+      {/* Speech bubble to the left of the image */}
       <div
         style={{
           position: "absolute",
-          left: 28,
-          top: 48,
+          left: 0,
+          top: 120,
           background: colors.text,
           borderRadius: 18,
           border: `2.5px solid ${colors.accent}`,
           padding: "22px 28px",
-          maxWidth: 300,
-          boxShadow: `0 8px 32px rgba(0,0,0,0.5)`,
+          width: 260,
+          boxShadow: `0 8px 32px rgba(0,0,0,0.4)`,
+          zIndex: 2,
         }}
       >
         <div
@@ -103,29 +90,53 @@ const CoverSlide: React.FC = () => (
           ?
         </div>
 
-        {/* Bubble tail pointing down-right toward her mouth */}
+        {/* Bubble tail pointing RIGHT toward her mouth */}
         <div
           style={{
             position: "absolute",
-            bottom: -18,
-            right: 40,
+            top: 40,
+            right: -18,
             width: 0,
             height: 0,
-            borderLeft: "16px solid transparent",
-            borderRight: "16px solid transparent",
-            borderTop: `18px solid ${colors.accent}`,
+            borderTop: "14px solid transparent",
+            borderBottom: "14px solid transparent",
+            borderLeft: `18px solid ${colors.accent}`,
           }}
         />
         <div
           style={{
             position: "absolute",
-            bottom: -14,
-            right: 42,
+            top: 42,
+            right: -14,
             width: 0,
             height: 0,
-            borderLeft: "14px solid transparent",
-            borderRight: "14px solid transparent",
-            borderTop: `16px solid ${colors.text}`,
+            borderTop: "12px solid transparent",
+            borderBottom: "12px solid transparent",
+            borderLeft: `16px solid ${colors.text}`,
+          }}
+        />
+      </div>
+
+      {/* Image - not cropped */}
+      <div
+        style={{
+          position: "absolute",
+          right: 0,
+          top: 0,
+          width: 640,
+          height: 640,
+          borderRadius: 24,
+          overflow: "hidden",
+          boxShadow: shadows.raisedStrong,
+          border: `1px solid rgba(240,247,248,0.08)`,
+        }}
+      >
+        <Img
+          src={staticFile("bild_paar_am_essenstisch.png")}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "contain",
           }}
         />
       </div>
