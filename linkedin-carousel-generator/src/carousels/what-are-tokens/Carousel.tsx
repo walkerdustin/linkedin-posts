@@ -584,7 +584,7 @@ const MeaningSlide: React.FC = () => (
       BEDEUTUNG
     </Headline>
 
-    {/* King-Prince vs Price-Prince */}
+    {/* Bier-Sekt vs Bier-Tier */}
     <div style={{ display: "flex", gap: 16, marginBottom: 24 }}>
       {/* Semantisch nah */}
       <ContentBox
@@ -600,11 +600,11 @@ const MeaningSlide: React.FC = () => (
         </Label>
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 16 }}>
           <Headline size="sm" style={{ fontSize: 30 }}>
-            KING
+            BIER
           </Headline>
           <span style={{ fontSize: 28, color: colors.accent }}>&#x2194;</span>
           <Headline size="sm" style={{ fontSize: 30 }}>
-            PRINCE
+            SEKT
           </Headline>
         </div>
         <div
@@ -633,11 +633,11 @@ const MeaningSlide: React.FC = () => (
         </Label>
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 16 }}>
           <Headline size="sm" style={{ fontSize: 30 }}>
-            PRICE
+            BIER
           </Headline>
           <span style={{ fontSize: 28, opacity: 0.3 }}>&#x2194;</span>
           <Headline size="sm" style={{ fontSize: 30 }}>
-            PRINCE
+            TIER
           </Headline>
         </div>
         <div

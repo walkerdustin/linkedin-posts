@@ -1,12 +1,13 @@
 # March 19, 2026
 
-Warum kann ChatGPT nicht die R in "strawberry" zählen?
+Für ChatGPT ist "strawberry" eine einzige Zahl: 101830.
+Kein s, kein t, kein r. Nur eine Nummer.
 
-Die Antwort hat mit einer kleinen Lüge zu tun. Im letzten Post habe ich gesagt, LLMs sagen das nächste Wort vorher. Stimmt nicht ganz. LLMs kennen gar keine Wörter. Und keine Buchstaben.
+Im letzten Post habe ich gesagt, LLMs sagen das nächste Wort vorher. Stimmt nicht ganz. LLMs kennen gar keine Wörter. Und keine Buchstaben.
 
 Was ein LLM sieht, ist eine Liste von Zahlen. Jede Zahl steht für ein 𝗧𝗼𝗸𝗲𝗻.
 
-Im Bild habe ich meinen LinkedIn-Profiltext durch den GPT-5-Tokenizer gejagt. Jede Farbe ist ein Token. "HalliHallo" wird in drei Stücke zerlegt ("H", "alli", "Hallo"), mein Name "Dustin" ist dagegen ein einzelner Token: Nummer 161250.
+Im Bild unten habe ich einen kurzen Text durch den GPT-5-Tokenizer gejagt. Jede Farbe ist ein Token. "HalliHallo" wird in drei Stücke zerlegt ("H", "alli", "Hallo"), mein Name "Dustin" ist dagegen ein einzelner Token: Nummer 161250.
 
 Warum nicht einfach Wörter?
 
@@ -24,10 +25,10 @@ Und jetzt die Eingangsfrage: Warum kann ein LLM die R in "strawberry" nicht zäh
 
 Weil es "strawberry" nicht als Buchstaben sieht. Es sieht nur Token 101830. Das LLM hat im Training gelernt, dass dieser Token etwas mit einer roten Frucht zu tun hat. Aber welche Buchstaben drinstecken? Keine Ahnung. Aus dem gleichen Grund kann ein LLM auch nicht zuverlässig eine bestimmte Wortanzahl einhalten.
 
-Was ein LLM dafür kann: 𝗕𝗲𝗱𝗲𝘂𝘁𝘂𝗻𝗴 erkennen. "King" und "Prince" liegen für ein LLM nah beieinander. "Price" und "Prince" nicht, obwohl nur ein Buchstabe anders ist. Das finde ich nach wie vor faszinierend: Ein Modell, das keine Buchstaben sieht, versteht trotzdem Bedeutung.
+Was ein LLM dafür kann: 𝗕𝗲𝗱𝗲𝘂𝘁𝘂𝗻𝗴 erkennen. "Bier" und "Sekt" liegen für ein LLM nah beieinander. "Bier" und "Tier" nicht, obwohl nur ein Buchstabe anders ist. Das finde ich nach wie vor faszinierend: Ein Modell, das keine Buchstaben sieht, versteht trotzdem Bedeutung.
 
 Noch was: "Dustin" ist Token 161250 im GPT-5-Tokenizer. Mein Name ist wichtig genug für einen eigenen Token.
 
-Ist euer Name auch ein eigener Token, oder braucht er zwei? Probiert es aus: tiktokenizer.vercel.app
+Ist euer Name auch ein eigener Token, oder braucht er zwei? Probiert es aus: https://tiktokenizer.vercel.app/?model=o200k_base
 
 #GenerativeAI #LLM #KI #LLMGrundlagen #Tokens
