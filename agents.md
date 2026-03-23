@@ -24,6 +24,22 @@ My goal is simple: Cut through the AI noise and share what really works in GenAI
 Connect with me if you want grounded, experience-based perspectives on Generative AI.
 
 
+## Workflow: Neuen Post erstellen
+
+Der Prozess zum Erstellen eines neuen Posts hat feste Schritte. Der Agent geht **nicht** selbstständig zum nächsten Schritt über – jeder Schritt wird erst nach expliziter Anweisung begonnen.
+
+1. **Thema diskutieren** – Agent und ich diskutieren und iterieren gemeinsam über das Thema, den Blickwinkel und die Abgrenzung des Posts.
+2. **concept.md verfassen** – Wir erstellen gemeinsam ein `concept.md` im Post-Ordner. Struktur:
+   - **Thema des Posts** – Überschrift und Einordnung
+   - **Ziel des Posts** – Was soll der Leser nach dem Lesen verstanden haben?
+   - **Kernbotschaften / Informationen** – Die konkreten Inhalte, die vermittelt werden sollen
+   - **Relevanz für den Leser** – Warum ist das Thema wichtig? (Zielgruppe beachten: technisch, BWL, Führungskräfte)
+   - **Persönliche Anekdote** (optional) – Aus Schulungen, Kundenprojekten, Arbeitsalltag
+   - **Rechercheergebnisse** (optional) – Konkrete Zahlen, Studien, Quellen aus dem Web
+3. **5 Post-Versionen schreiben** – Der Agent schreibt 5 unterschiedliche Versionen des Posts auf Basis des concept.md.
+4. **Versionen bewerten** – Der Agent bewertet die 5 Versionen kritisch und begründet.
+5. **post.md finalisieren** – Wir verfassen gemeinsam die finale Version in `post.md`.
+
 ## Projektstruktur
 
 In `/my-linkedin-posts` sind meine vergangenen LinkedIn-Posts (einige auch auf Englisch).  
