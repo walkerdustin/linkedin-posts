@@ -22,3 +22,4 @@ Ich sage euch: Wer wirklich verstanden hat, wie Chatbots und andere AI-Tools mit
 Wie moderne, nativ multimodale Vision Language Models das Problem lösen, zeige ich im nächsten Post.
 
 #GenerativeAI #LLM #KI #LLMGrundlagen #PromptEngineering
+Bild ist generiert mit Google Nano Banana 2
