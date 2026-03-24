@@ -1,24 +1,24 @@
 # March 23, 2026
 
-"Warum versteht der Chatbot meine Tabelle nicht?"
-Wenn ich Prompt-Engineering-Schulungen gebe, kommt diese Frage eigentlich immer.
+In den letzten zwei Jahren habe ich schon mehr als 200 Kunden zum Thema AI und Prompt Engineering beraten und geschult. Jedes Mal kommt dieselbe Frage:
+"Warum funktioniert das nicht so, wie ich mir das vorgestellt habe?"
 
-Die Nutzer laden ein Dokument hoch und gehen ganz natürlich davon aus, dass die KI es sich ansieht und versteht. 
+Die Antwort ist oft dieselbe: Der Chatbot nimmt die Welt nicht so wahr wie wir Menschen. Denn hinter dem Chatbot steckt ein SPRACHmodell.
 
-In der Praxis vermischt das Tool dann aber oft die Spalten oder erfindet völlig neue Zahlen. Der Grund dafür ist ein klassisches Missverständnis: Wir verwechseln den Chatbot (die Oberfläche) mit dem eigentlichen Sprachmodell.
+Im letzten Post habe ich euch erklärt, dass ein LLM als Input eine Reihe an Tokens bekommt. Und diese Tokens repräsentieren in den meisten Fällen einfach Text.
 
-Letzte Woche ging es darum, dass LLMs Text in Tokens zerlegen. Was oft untergeht: Das Kern-Modell versteht wirklich *nur* Text. Keine Bilder, kein Layout, keine PDFs. Nur rohe Zeichenketten.
+Wenn du dir als Mensch eine PDF anschaust, dann kannst du den Text lesen, du nimmst das Layout wahr, du siehst die Bilder, die eingebettet sind.
 
-Wenn du ein PDF hochlädst, liest das Modell die Datei nicht. Der Chatbot nutzt vorher ein Skript, das den Text extrahiert und dabei das gesamte Layout zerstört.
+Ein LLM nimmt eine PDF aber ganz anders wahr. Denn eine PDF ist kein Text – eine PDF ist eine binäre Datei. Und damit kann ein LLM eine PDF eigentlich gar nicht verarbeiten.
 
-Aus einer sauberen Tabelle wird ein Fließtext, in dem der Umsatz von 2025 plötzlich an der Jahreszahl von 2024 klebt. Das LLM sieht nur noch Buchstabensalat – und fängt an zu raten.
+Wenn du eine PDF bei ChatGPT hochlädst, liest das Modell die Datei nicht. Der Chatbot nutzt vorher ein Skript, das den Text aus der PDF extrahiert. Dabei kann sehr viel Struktur und Information verloren gehen.
 
-Stell dir vor, jemand liest dir eine verschachtelte Excel-Tabelle Zeile für Zeile laut am Telefon vor. Genau so fühlt sich das für das Sprachmodell an. Dass es da den Faden verliert, ist eigentlich logisch.
+Anderes Beispiel: Aus einer sauberen Excel-Tabelle wird ein Fließtext, in dem der Umsatz von 2025 plötzlich an der Jahreszahl von 2024 klebt. Das LLM sieht nur noch Buchstabensalat – und fängt an zu raten.
 
-Das ist in vielen GenAI-Projekten der Punkt, an dem die Dinge schiefgehen. Wer versteht, dass das Modell blind für Formatierungen ist, hört auf, ihm komplexe PDFs vorzuwerfen. Schickst du unstrukturierten Text rein, kommt eben auch unstrukturiertes Raten raus.
+Stell dir vor, jemand liest dir eine verschachtelte Excel-Tabelle Zeile für Zeile laut am Telefon vor. Genauso fühlt sich das für das Sprachmodell an. Dass es da den Faden verliert, ist eigentlich logisch.
 
-Wie moderne, wirklich multimodale Modelle das Problem lösen, zeige ich im nächsten Post.
+Ich sage euch: Wer wirklich verstanden hat, wie Chatbots und andere AI-Tools mit verschiedenen Modalitäten umgehen, der hat den Unlock geschafft, um richtig produktiv mit diesen Tools zu arbeiten – und muss sich weniger oft fragen: "Warum funktioniert das nicht so, wie ich mir das vorgestellt habe?"
 
-Wusstet ihr, dass der Chatbot eure PDFs intern quasi nur "vorliest"?
+Wie moderne, nativ multimodale Vision Language Models das Problem lösen, zeige ich im nächsten Post.
 
 #GenerativeAI #LLM #KI #LLMGrundlagen #PromptEngineering
