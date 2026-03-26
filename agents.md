@@ -36,7 +36,7 @@ Der Prozess zum Erstellen eines neuen Posts hat feste Schritte. Der Agent geht *
    - **Relevanz für den Leser** – Was ist relevant für den Leser und warum ist das Thema relevant für den Leser? (Zielgruppe beachten: technisch, BWL, Führungskräfte)
    - **Persönliche Anekdote** (optional) – Aus Schulungen, Kundenprojekten, Arbeitsalltag
    - **Rechercheergebnisse** (optional) – Konkrete Zahlen, Studien, Quellen aus dem Web
-3. **5 Post-Versionen schreiben** – Der Agent (du) schreibt 5 unterschiedliche Versionen des Posts auf Basis des concept.md. Schreibe die versionen in draft_0.md, draft_1.md etc. Überlege dir vor jedem draft wie du den draft schreiben willst.
+3. **5 Post-Versionen schreiben** – Der Agent (du) schreibt 5 unterschiedliche Versionen des Posts auf Basis des concept.md. Schreibe die versionen in draft_0.md, draft_1.md etc. Überlege dir vor jedem draft wie du den draft schreiben willst. Benutze keine Markdown Überschrift. Starte direkt mit der Hook.
 4. **Versionen bewerten** – Der Agent bewertet die 5 Versionen kritisch und begründet.
 5. **post.md finalisieren** – Wir verfassen gemeinsam die finale Version in `post.md`.
 
