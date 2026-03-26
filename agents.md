@@ -33,16 +33,16 @@ Der Prozess zum Erstellen eines neuen Posts hat feste Schritte. Der Agent geht *
    - **Thema des Posts** – Überschrift und Einordnung
    - **Ziel des Posts** – Was soll der Leser nach dem Lesen verstanden haben?
    - **Kernbotschaften / Informationen** – Die konkreten Inhalte, die vermittelt werden sollen
-   - **Relevanz für den Leser** – Warum ist das Thema wichtig? (Zielgruppe beachten: technisch, BWL, Führungskräfte)
+   - **Relevanz für den Leser** – Was ist relevant für den Leser und warum ist das Thema relevant für den Leser? (Zielgruppe beachten: technisch, BWL, Führungskräfte)
    - **Persönliche Anekdote** (optional) – Aus Schulungen, Kundenprojekten, Arbeitsalltag
    - **Rechercheergebnisse** (optional) – Konkrete Zahlen, Studien, Quellen aus dem Web
-3. **5 Post-Versionen schreiben** – Der Agent schreibt 5 unterschiedliche Versionen des Posts auf Basis des concept.md.
+3. **5 Post-Versionen schreiben** – Der Agent (du) schreibt 5 unterschiedliche Versionen des Posts auf Basis des concept.md. Schreibe die versionen in draft_0.md, draft_1.md etc. Überlege dir vor jedem draft wie du den draft schreiben willst.
 4. **Versionen bewerten** – Der Agent bewertet die 5 Versionen kritisch und begründet.
 5. **post.md finalisieren** – Wir verfassen gemeinsam die finale Version in `post.md`.
 
 ## Projektstruktur
 
 In `/my-linkedin-posts` sind meine vergangenen LinkedIn-Posts (einige auch auf Englisch).  
-In `/neuer-post` arbeiten wir gemeinsam an einem neuen Post.  
+In einem unterordner in `/my-linkedin-posts` arbeiten wir gemeinsam an einem neuen Post.  
 In `/` habe ich für dich ein Python-Projekt mit astral uv eingerichtet – falls du für bestimmte Aufgaben scripten willst. Benutze 'uv add' um dependencies hinzuzufügen und 'uv run python' um python scripte auszuführen
 in `linkedin-carousel-generator` ist ein typescript remotion project.
