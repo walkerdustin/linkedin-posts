@@ -34,9 +34,14 @@ uv run python .cursor/skills/gemini-image-generator/scripts/generate_image.py --
 
 # With reference image (e.g. for consistent characters/faces)
 uv run python .cursor/skills/gemini-image-generator/scripts/generate_image.py --prompt "Your detailed prompt here" --output "path/to/output.png" --reference "assets/portrait.png"
+
+# Long / multiline prompts (UTF-8 file). Default image quality is 1K; use 4K for final assets.
+uv run python .cursor/skills/gemini-image-generator/scripts/generate_image.py --prompt-file "path/to/prompt.txt" --output "path/to/output.png" --aspect-ratio "3:4" --image-quality "4K"
 ```
 
 If generating multiple variations, run the script multiple times in parallel with slightly varied prompts or just different output names.
+
+**Image quality:** use `--image-quality` with `1K`, `2K`, or `4K`. Default is **1K** (fast iteration). For the **final** graphic, run again with `--image-quality 4K`.
 
 ## Guidelines for Prompts
 
