@@ -1,0 +1,32 @@
+Portrait poster, DIN-A4-like proportions (taller than wide). Refined editorial look: warm off-white / light paper background #F6F4F1, NOT plain printer white. Premium stationery feel — avoid cheap drop shadows or rainbow effects.
+
+Brand colors: headings and table header row in deep petrol #1D5B66; accent details (small rules, pill-shaped section tags, left border bars) in terracotta #CC5B44; body text charcoal #2A2F33; code examples in dark teal on very subtle #EEF5F6 code panels.
+
+Layout: two soft "cards" with whisper-light shadow and 1px hairline border in light gray — first card "Grundlagen", second "Oft in Chat-Interfaces". Section titles with small terracotta vertical bar to the left.
+
+Title at top: "Markdown — Kurzreferenz" in #1D5B66. Subtitle: "Für Chats und KI-Assistenten".
+
+TABLE 1 — columns "Element" | "Markdown". Right column monospace. All syntax must be technically correct:
+
+- Überschrift 1: # Überschrift eins  (hash + mandatory space)
+- Überschrift 2 und 3 on separate short lines: ## …  und  ### …
+- Fett: **fetter Text**
+- Kursiv: *kursiver Text*
+- Durchgestrichen: ~~Text~~
+- Zitat: > Zitat
+- Liste: - Punkt
+- Nummeriert: 1. Schritt
+- Inline-Code: `befehl`
+- Trennlinie: --- (only, on own line)
+- Link: [Text](https://beispiel.de)
+- Bild: ![Alt](bild.png)
+
+TABLE 2:
+
+- Code-Block: fence line ```json then body line { "ok": true } then closing fence ```
+- Tabelle: full mini example with pipes — line1 | A | B |  line2 | --- | --- |  line3 | x | y |
+- Aufgaben: - [ ] offen  and  - [x] fertig
+
+Footer in small caps feel, centered, gray: Dustin Walker · Generative AI Engineer · Alexander Thamm GmbH — linkedin.com/in/dustin-walker-pro/
+
+Overall: expensive annual-report aesthetic, not a Canva template.

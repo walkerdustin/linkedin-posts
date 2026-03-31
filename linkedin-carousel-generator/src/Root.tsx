@@ -5,6 +5,10 @@ import { ExampleCarousel, EXAMPLE_SLIDE_COUNT } from "./carousels/example/Carous
 import { LlmGrundlagenCarousel, LLM_GRUNDLAGEN_SLIDE_COUNT } from "./carousels/llm-grundlagen/Carousel";
 import { HowLlmsWorkCarousel, HOW_LLMS_WORK_SLIDE_COUNT } from "./carousels/how-llms-work/Carousel";
 import { WhatAreTokensCarousel, WHAT_ARE_TOKENS_SLIDE_COUNT } from "./carousels/what-are-tokens/Carousel";
+import {
+  MarkdownCheatSheet,
+  MARKDOWN_CHEAT_SHEET_SLIDE_COUNT,
+} from "./carousels/markdown-cheat-sheet/Carousel";
 
 export const Root: React.FC = () => {
   return (
@@ -37,6 +41,14 @@ export const Root: React.FC = () => {
         id="what-are-tokens"
         component={WhatAreTokensCarousel}
         durationInFrames={WHAT_ARE_TOKENS_SLIDE_COUNT}
+        fps={1}
+        width={SLIDE_WIDTH}
+        height={SLIDE_HEIGHT}
+      />
+      <Composition
+        id="markdown-cheat-sheet"
+        component={MarkdownCheatSheet}
+        durationInFrames={MARKDOWN_CHEAT_SHEET_SLIDE_COUNT}
         fps={1}
         width={SLIDE_WIDTH}
         height={SLIDE_HEIGHT}
