@@ -7,12 +7,38 @@ from google.genai import types
 
 def main():
     parser = argparse.ArgumentParser(description="Generate image using Gemini API")
-    parser.add_argument("--prompt", required=True, help="Detailed prompt for the image")
+    parser.add_argument("--prompt", help="Detailed prompt for the image")
+    parser.add_argument(
+        "--prompt-file",
+        help="UTF-8 text file with the prompt (use instead of --prompt for long or multiline prompts)",
+    )
     parser.add_argument("--output", required=True, help="Output path for the generated image")
     parser.add_argument("--reference", help="Path to a reference image")
     parser.add_argument("--aspect-ratio", default="1:1", choices=["1:1", "16:9", "4:3", "3:4", "9:16"])
+    parser.add_argument(
+        "--image-quality",
+        default="1K",
+        choices=["1K", "2K", "4K"],
+        dest="image_quality",
+        help="Resolution tier: default 1K for fast iteration; use 4K for final LinkedIn-ready output (maps to API image_size).",
+    )
     
     args = parser.parse_args()
+
+    if args.prompt_file:
+        if args.prompt:
+            print("Error: Use either --prompt or --prompt-file, not both.", file=sys.stderr)
+            sys.exit(1)
+        with open(args.prompt_file, encoding="utf-8") as f:
+            prompt_text = f.read().strip()
+        if not prompt_text:
+            print("Error: --prompt-file is empty.", file=sys.stderr)
+            sys.exit(1)
+    elif args.prompt:
+        prompt_text = args.prompt
+    else:
+        print("Error: Provide --prompt or --prompt-file.", file=sys.stderr)
+        sys.exit(1)
     
     # Load environment variables from the root .env file
     load_dotenv()
@@ -41,9 +67,11 @@ def main():
             print(f"Error loading reference image: {e}", file=sys.stderr)
             sys.exit(1)
             
-    contents.append(args.prompt)
+    contents.append(prompt_text)
     
-    print(f"Generating image to {args.output} with aspect ratio {args.aspect_ratio}...")
+    print(
+        f"Generating image to {args.output} with aspect ratio {args.aspect_ratio}, image quality {args.image_quality}..."
+    )
     
     try:
         response = client.models.generate_content(
@@ -53,7 +81,7 @@ def main():
                 response_modalities=["IMAGE"],
                 image_config=types.ImageConfig(
                     aspect_ratio=args.aspect_ratio,
-                    image_size="2K"
+                    image_size=args.image_quality,
                 )
             )
         )

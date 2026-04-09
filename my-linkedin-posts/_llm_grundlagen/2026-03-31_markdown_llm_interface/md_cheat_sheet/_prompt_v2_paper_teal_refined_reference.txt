@@ -1,0 +1,26 @@
+REFERENCE IMAGE PROVIDED: Recreate this poster with the SAME overall design — warm paper background #F6F4F1, petrol #1D5B66 title and table headers, terracotta #CC5B44 accents, two soft white/gray cards with light shadow and hairline border, charcoal body text #2A2F33, monospace examples on pale #EEF5F6 panels, same top title "Markdown — Kurzreferenz", same subtitle "Für Chats und KI-Assistenten", same footer lines (Dustin Walker · Generative AI Engineer · Alexander Thamm GmbH — linkedin.com/in/dustin-walker-pro/). Keep typography weight, spacing mood, and premium editorial feel identical.
+
+STRICT CHANGES ONLY:
+
+1) Remove ALL pill-shaped section tags, chips, badges, or label capsules (e.g. small colored tags next to section names). Section headings must be plain text only: "Grundlagen" and "Oft in Chat-Interfaces". You may keep a subtle thin terracotta vertical bar to the left of those headings if it matches the reference — but NO separate "tag" elements.
+
+2) In the first column of BOTH tables, use plain German labels with NO trailing colons (not "Element:" style in cells — the column header row stays "Element" and "Markdown" as in reference).
+
+3) Replace combined heading rows with THREE separate rows:
+   - Überschrift 1 — markdown example: # Überschrift eins
+   - Überschrift 2 — markdown example: ## Überschrift zwei
+   - Überschrift 3 — markdown example: ### Überschrift drei
+
+4) Row "Nummeriert": show a proper ordered list with three steps using 1. 2. 3. (digit, dot, space, then text), e.g. three lines: "1. Erster Punkt" / "2. Zweiter Punkt" / "3. Dritter Punkt" in the Markdown column.
+
+5) Row "Durchgestrichen": show the literal characters for strikethrough syntax ~~Beispiel~~ in monospace. Do NOT apply visual strikethrough styling — the tildes and word must read clearly as raw syntax, not crossed-out.
+
+6) Code-Block row: the Markdown column must show EXACTLY three lines with visible line breaks:
+   Line 1: three backticks immediately followed by json (opening fence)
+   Line 2: { "ok": true }
+   Line 3: three backticks only (closing fence)
+   There must be a blank line break between line 1 and 2 and between line 2 and 3 so three distinct lines are visible.
+
+7) All other rows (Fett, Kursiv, Zitat, Liste, Inline-Code, Trennlinie, Link, Bild; second table Tabelle, Aufgaben) stay consistent with the reference layout and correct Markdown, adjusted only if the table grows taller due to extra heading rows.
+
+Output must look like a polished revision of the same asset, not a new unrelated style.
