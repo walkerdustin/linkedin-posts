@@ -1,31 +1,31 @@
-Die NAICE 2026 ist vorbei – und hier sind 3 Dinge, die mich wirklich zum Nachdenken gebracht haben.
+Die NAICE 2026 ist vorbei. Hier sind 3 Dinge, die mich wirklich beschäftigt haben.
 
-Ich war am Mittwoch auf der NAICE von Alexander Thamm [at] in München. 500+ Leute aus der Data & AI Community, Fokus auf "The Real World of Agentic Business". Keine Hochglanz-Demos, sondern echte Praxiserfahrungen.
+Ich war am Mittwoch auf der NAICE in München (ausgerichtet von Alexander Thamm [at]). 500+ Leute aus der Data & AI Community, Fokus auf "The Real World of Agentic Business". Keine Demos, die nur im Labor funktionieren, sondern das, was in der Praxis wirklich passiert.
 
-Das waren meine persönlichen Highlights:
+Meine persönlichen Takeaways:
 
 1️⃣ Engineering First
-Victor Seifert hat in seinem Talk "How to enable AI at your company" gezeigt, wie man eine skalierbare AI-Plattform aufbaut. Keine Buzzwords, kein BS – einfach eine pragmatische, durchdachte Architektur. (Ich habe seine Target-State-Architektur mal unten angehängt – ein großartiger Blueprint für alle, die über Infrastruktur & Governance nachdenken).
+Victor Seifert hat in seinem Talk "How to enable AI at your company" sehr nüchtern gezeigt, wie man eine AI-Plattform baut, die auch skaliert. Kein Hype, einfach saubere Architektur. (Ich habe seine Target-State-Architektur unten angehängt – schaut euch das an, wenn ihr gerade über Infrastruktur & Governance nachdenkt).
 
-2️⃣ AI-ready bedeutet mehr als Tools
-Der Vortrag von Dr. Nikolay Kladt (ALTANA AG) war extrem fokussiert auf die Realität: "Is AI code generation enough?" Die klare Antwort: Nein. Um wirklich Wert aus AI zu ziehen, muss sich die Datenorganisation grundlegend verändern.
+2️⃣ AI-ready bedeutet mehr als Tools einkaufen
+Dr. Nikolay Kladt (ALTANA AG) hat eine unangenehme Frage gestellt: "Is AI code generation enough?" Seine Antwort: Nein. Wenn sich die Datenorganisation im Hintergrund nicht ändert, bringt der beste Copilot wenig.
 
-3️⃣ Regulierung aus Angst lähmt
-Das absolute Schwergewicht für mich kam im Panel von Dr. Gerlinde Zimmermann. Hannes Kolbe (AOK Nordost) hat einen entscheidenden Punkt gemacht: Regularien und Prozesse zur Datensicherheit sind wichtig und richtig. Aber er beobachtet oft, dass diese Prozesse wie von Robotern ausgeführt werden – auch dort, wo sie gar keinen Sinn machen und gar nicht hingehören. Aus purer Angst wird einfach der lähmende Prozess angewendet. 
+3️⃣ Regulierung aus Angst
+Das hat mich am meisten zum Nachdenken gebracht. Im Panel von Dr. Gerlinde Zimmermann hat Hannes Kolbe (AOK Nordost) einen wunden Punkt getroffen. Datenschutz und Regularien sind wichtig. Aber oft werden diese Prozesse völlig blind ausgeführt – auch in Kontexten, wo sie inhaltlich gar keinen Sinn machen.
 
-Das ist ein wertvoller Appell: Prozesse und Regularien ja – aber nur da, wo sie wirklich Sinn machen. 
+Man drückt aus purer Angst auf die Prozess-Bremse, weil man die Technologie nicht einschätzen kann.
 
-Und genau hier schließt sich für mich der Kreis: Um beurteilen zu können, wo ein Prozess Sinn macht und wo nicht, ist es essenziell wichtig zu verstehen, wie LLMs und AI überhaupt funktionieren. 
+Prozesse ja – aber nur da, wo sie hingehören. 
 
-Wer die Technologie nicht versteht, reguliert aus Angst. Wer sie versteht, reguliert mit Augenmaß.
+Um das entscheiden zu können, muss man aber zwingend verstehen, wie LLMs und AI unter der Haube arbeiten. Wer die Technik nicht versteht, reguliert aus Panik. Wer sie versteht, reguliert mit Augenmaß.
 
-Genau deshalb mache ich hier auf LinkedIn meine LLM-Grundlagen-Serie: Weil ich der Meinung bin, dass jeder (gerade auch Entscheider) die wichtigsten Grundlagen verstehen sollte.
+Genau deshalb mache ich hier auf LinkedIn meine LLM-Grundlagen-Serie. Man muss kein Entwickler sein, aber man muss wissen, worüber man eigentlich entscheidet.
 
-Den letzten Teil der Serie findet ihr hier: [LINK EINFÜGEN]
+Den aktuellen Teil der Serie findet ihr hier: [LINK EINFÜGEN]
 
-Wart ihr auf der NAICE? Was war euer wichtigstes Takeaway?
+Wer von euch war noch auf der NAICE? Was habt ihr mitgenommen?
 
 #NAICE26 #AgenticAI #DataGovernance #SoftwareEngineering #AlexanderThamm
 
 ---
-Media: image-3f741225-1ec7-4c75-8843-f6a13d58b91a.png (Victors Architektur-Slide)
+Media: media.png (Victors Architektur-Slide)
