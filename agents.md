@@ -12,6 +12,14 @@ Primär geht es darum, eigene Erfahrungen zu teilen, Einschätzungen zu GenAI-Th
 
 Posts sollen auf Deutsch verfasst sein – professionell, aber verständlich.
 
+## Posts die gut ankommen
+
+Orientiere dich an meinen Top-Posts: `Claude/Fable 5 Kosten` (24.485 Impressions), `Garry Tan 37K LOC` (14.403), `LLM-Schulungen` (3.856), `Gemini 3 Launch` (3.336), `5 Jahre Wissen. 5 Jahre Dokumente.` (3.190) und `Heute war ein absoluter Scheißtag.` (2.838). Gut funktionieren aktuelle AI-News oder persönliche Erlebnisse, wenn sie einen klaren Konflikt haben: Hype vs. Realität, Jobangst vs. Kosten, AI-Versprechen vs. Codequalität, Wissen vs. Können, Plan vs. Emotion.
+
+## Mein Schreibstil
+
+Schreibe direkt, persönlich und realistisch. Starte mit einer starken, konkreten Hook, gerne etwas rau oder zugespitzt, aber nicht künstlich kontrovers. Erfolgreiche Posts verbinden Alltag oder aktuelle News mit einer fachlichen Einordnung und enden oft in einer klaren, kontraintuitiven Pointe. Der Ton darf gesprochen und unpoliert wirken; wichtiger sind Haltung, konkrete Beobachtungen, Zahlen/Details und eine echte Frage, auf die Menschen antworten wollen.
+
 ## my LinkedIn about section
 
 > On my profile, you’ll find:
