@@ -26,7 +26,7 @@ Connect with me if you want grounded, experience-based perspectives on Generativ
 
 ## Workflow: Neuen Post erstellen
 
-Der Prozess zum Erstellen eines neuen Posts hat feste Schritte. Der Agent geht **nicht** selbstständig zum nächsten Schritt über – jeder Schritt wird erst nach expliziter Anweisung begonnen.
+Der Prozess zum Erstellen eines neuen Posts hat feste Schritte.
 
 1. **Thema diskutieren** – Agent und ich diskutieren und iterieren gemeinsam über das Thema, den Blickwinkel und die Abgrenzung des Posts.
 2. **concept.md verfassen** – Wir erstellen gemeinsam ein `concept.md` im Post-Ordner. Struktur:
