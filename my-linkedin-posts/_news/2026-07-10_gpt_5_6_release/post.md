@@ -1,19 +1,23 @@
-GPT-5.6 wurde heute Nacht released.
+DAS NEUE LLM 𝐆𝐏𝐓-𝟓.𝟔 wurde heute Nacht released.
 Hier ist alles, was Entwickler, Projektmanager und Entscheider in Deutschland dazu wissen sollten:
 
-OpenAI hatte GPT-5.6 bereits am 26. Juni vorgestellt. Auf Wunsch der US-Regierung bekamen zunächst aber nur wenige ausgewählte Partner Zugriff.
+𝗗𝗲𝗿 𝗥𝗲𝗹𝗲𝗮𝘀𝗲
 
-Ähnlich wie bei Claude Fable 5 ging es unter anderem um die neuen Fähigkeiten im Bereich Cybersecurity.
+OpenAI hatte GPT-5.6 bereits am 26. Juni vorgestellt. Auf Wunsch der US-Regierung bekamen zunächst aber nur wenige ausgewählte Partner Zugriff. (Ähnlich wie bei Fable 5)
 
 Seit heute ist GPT-5.6 endlich allgemein in ChatGPT, Codex und über die API verfügbar.
 
-Und OpenAI hat ein neues Namensschema:
+𝗟𝘂𝗻𝗮, 𝗧𝗲𝗿𝗿𝗮 𝘂𝗻𝗱 𝗦𝗼𝗹
+
+OpenAI hat ein neues Namensschema:
 
 Luna = Mond = schnell und günstig
 Terra = Erde = das ausgewogene Modell
 Sol = Sonne = das größte und stärkste Modell
 
 Ich finde die Namen ehrlich gesagt ziemlich sympathisch. Auf jeden Fall anschaulicher als mini und nano.
+
+𝗟𝗲𝗶𝘀𝘁𝘂𝗻𝗴 𝘂𝗻𝗱 𝗞𝗼𝘀𝘁𝗲𝗻
 
 Im Artificial Analysis Coding Agent Index erreicht Sol 80 Punkte. GPT-5.5 kommt auf 76,4 und Claude Fable 5 auf 77,2.
 
@@ -29,7 +33,9 @@ Für mich ist Terra deshalb fast spannender als Sol. Es erreicht im Coding Agent
 
 Selbst Luna schlägt GPT-5.5 in vielen praxisnahen Benchmarks. Nicht in allen. Aber für ein Modell, das nur ein Fünftel von Sol kostet, ist das schon enorm.
 
-Für deutsche Unternehmen ist aber ein anderer Punkt fast wichtiger:
+𝗔𝘇𝘂𝗿𝗲 𝗘𝗨 𝗗𝗮𝘁𝗮 𝗭𝗼𝗻𝗲
+
+Für deutsche Unternehmen ist dieser Punkt fast wichtiger:
 
 Terra und Luna sind direkt in Microsoft Foundry als Preview verfügbar. Auch als EU Data Zone Deployment. Prompts und Antworten werden dabei innerhalb der europäischen Azure Data Boundary verarbeitet.
 
@@ -37,7 +43,7 @@ Wir bei [at] prüfen deshalb gerade in all unseren aktiven Projekten, ob wir auf
 
 Wenn unsere Tests die Benchmarks bestätigen, bekommen wir mehr Leistung für weniger Geld, ohne die Azure EU Data Zone zu verlassen.
 
-Dann ist da noch Computer Use.
+𝗖𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝗨𝘀𝗲
 
 Matthew Berman gab GPT-5.6 in Codex diesen Auftrag:
 
@@ -49,6 +55,8 @@ Nach fünf Tagen funktionierten unter anderem Formeln, Filter, Pivot-Tabellen un
 
 Berman beendete den Lauf. Das Modell selbst war noch nicht fertig.
 
+𝗞𝗼𝗻𝗸𝗿𝗲𝘁 𝗶𝗻 𝗱𝗲𝗿 𝗣𝗿𝗮𝘅𝗶𝘀
+
 Für Entwickler heißt das: größere Aufgaben können über Stunden oder Tage selbstständig bearbeitet werden.
 
 Projektmanager können statt einzelner Prompts ganze Arbeitspakete mit einem konkreten Ziel vergeben.
@@ -57,4 +65,3 @@ Und für Entscheider dürfte vor allem zählen, dass bessere Modelle gerade nich
 
 Habt ihr GPT-5.5 gerade in einem Projekt im Einsatz? Und werdet ihr Terra dagegen testen?
 
-#GenerativeAI #GPT56 #OpenAI #MicrosoftAzure #ArtificialIntelligence
